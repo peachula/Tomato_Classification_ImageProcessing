@@ -1,0 +1,29 @@
+{
+  "Amount" : {
+    "Type_1" : 0,
+    "Type_2" : 0,
+    "Type_3" : 0,
+    "Type_4" : 0
+  },
+  "Type_1" : {
+    "GREEN" : true,
+    "ORANGE" : true,
+    "RED" : true,
+    "max" : "85",
+    "min" : "10"
+  },
+  "Type_2" : {
+    "GREEN" : true,
+    "ORANGE" : true,
+    "RED" : true,
+    "max" : "85",
+    "min" : "10"
+  },
+  "Type_3" : {
+    "GREEN" : true,
+    "ORANGE" : true,
+    "RED" : true,
+    "max" : "85",
+    "min" : "10"
+  }
+}

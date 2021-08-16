@@ -1,0 +1,63 @@
+<!DOCUTYPE html>
+<html lang="vi">
+<head>
+    <title>Tomato</title> <!--tiêu đề web !-->
+    <meta charet="utf-8"/>
+    <link rel="stylesheet" href="css.css"/>
+    <link rel = "icon" href = "https://www.hutech.edu.vn/imgnews/homepage/stories/hinh34/logo%20CMYK-03.png" type = "image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <div class='img'>
+        </div>
+        <div class="content">
+            <div class="left">
+                <form id="Form" class="form">
+                    <span class='Name'> Phân Loại Cà Chua</span>
+                    <p class="alert" id="alert"></p>
+            
+                    <!--   Combo box chọn loại     -->
+                    <select class="Type" id="Loai" name="">
+                        <option value="Type_1">Loại 1</option>
+                        <option value="Type_2">Loại 2</option>
+                        <option value="Type_3">Loại 3</option>
+                    </select>
+                    <br/>
+                    <!--  Tickbox chọn màu     -->
+                    <span class="typename"> RED </span>
+                    <input type="checkbox" id="red"><br>
+                    <span class="typename"> ORANGE  </span>
+                    <input type="checkbox" id="orange"><br>
+                    <span class="typename"> GREEN </span>
+                    <input type="checkbox" id="green"><br>
+            
+                    <span class="title">Kích thước tối thiểu:</span>
+                    <input class="minmax" type="number" placeholder="Enter min" id="min" required=true>
+                    <br/>
+                    <span class="title">Kích thước tối đa:</span>
+                    <input class="minmax" type="number" placeholder="Enter max" id="max" required=true>
+                    <br/>
+                    <!-- cái nút ở đây-->
+                    <button class=btn type="submit">Submit</button>
+                    <p id="write"></p>
+            
+                </form>
+            </div>
+            <div class="right">
+                <form class="form info">
+                <ul id="list">
+
+                </ul>            
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Kết nối với firebase !-->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
