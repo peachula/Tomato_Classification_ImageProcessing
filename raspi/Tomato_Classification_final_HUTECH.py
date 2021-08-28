@@ -216,7 +216,7 @@ def color_processing(image_c):  # dau vao la 1 tam hinh
     if p_orange > 0.2:
         orange_tc = 1
     if p_green > 0.6:
-        green_tc = 'green'
+        green_tc = 1
     return img_red, img_orange, img_green, red_tc, orange_tc, green_tc
 
 
